@@ -6,7 +6,7 @@ spring:
       path: /housing-service
 
 server:
-  port: 0
+  port: 9003
 
 eureka:
   instance:
