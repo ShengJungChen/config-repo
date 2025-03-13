@@ -5,10 +5,6 @@ spring:
   cloud:
     gateway:
       routes:
-#        - id: user-service  # unique id, has nothing to do with eureka and lb
-#          uri: lb://user-service # service name    lb: loadbalancer
-#          predicates: # does filtering
-#            - Path=/user-service/** # url pattern
         - id: housing-service
           uri: lb://housing-service
           predicates:
