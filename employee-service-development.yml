@@ -1,10 +1,10 @@
 spring:
   application:
     name: employee-service
-  mvc:
-    servlet:
-      path: /employee-service
-
+  data:
+    mongodb:
+      uri: mongodb+srv://admin:JoTE7Horkdl4YwbP@cluster0.y5de1.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+      database: "HR_OnBoarding_System"
 
 server:
   port: 9001
