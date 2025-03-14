@@ -1,10 +1,6 @@
 spring:
   application:
     name: application-service
-  mvc:
-    servlet:
-      path: /application-service
-
 
 server:
   port: 9002

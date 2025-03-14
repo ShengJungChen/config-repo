@@ -1,10 +1,6 @@
 spring:
   application:
     name: email-service
-  mvc:
-    servlet:
-      path: /email-service
-
 
 server:
   port: 9004

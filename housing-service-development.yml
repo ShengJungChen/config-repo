@@ -1,9 +1,6 @@
 spring:
   application:
     name: housing-service
-  mvc:
-    servlet:
-      path: /housing-service
 
 server:
   port: 9003
