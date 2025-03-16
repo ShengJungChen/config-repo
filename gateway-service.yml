@@ -13,7 +13,8 @@ spring:
         - id: application-service
           uri: lb://application-service
           predicates:
-            - Path=/applications/** | /documents/**
+            - Path=/applications/**
+            - Path=/documents/**
 
         - id: housing-service
           uri: lb://housing-service
