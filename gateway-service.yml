@@ -10,15 +10,10 @@ spring:
           predicates:
             - Path=/employees/**
 
-        - id: application-service-applications
+        - id: application-service
           uri: lb://application-service
           predicates:
-            - Path=/applications/**
-
-        - id: application-service-documents
-          uri: lb://application-service
-          predicates:
-            - Path=/documents/**
+            - Path=/applications/**, /documents/**
 
         - id: housing-service
           uri: lb://housing-service
