@@ -11,7 +11,7 @@ spring:
             - Path=/employees/**
 
         - id: application-service
-          uri: lb://application-service
+          uri: lb://http://localhost:9002
           predicates:
             - Path=/applications/**
             - Path=/documents/**
