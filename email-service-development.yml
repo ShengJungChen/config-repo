@@ -1,6 +1,27 @@
 spring:
   application:
     name: email-service
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: anita.sj.chen@gmail.com
+    password: bdf9fc40782645b40b0125b08bb86549fd54eb304bd59249028c77b5c5f6ac0d0ef4713c54faea601bd039085973ec23
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+            required: true
+    from: anita.sj.chen@gmail.com
+
+app:
+  mail:
+    sender-name: HR Onboarding System
+
+jwt:
+  secret: hr-onboarding
+  expiration: 3600000
 
 server:
   port: 9004
