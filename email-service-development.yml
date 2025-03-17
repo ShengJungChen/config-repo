@@ -5,7 +5,7 @@ spring:
     host: smtp.gmail.com
     port: 587
     username: anita.sj.chen@gmail.com
-    password: bdf9fc40782645b40b0125b08bb86549fd54eb304bd59249028c77b5c5f6ac0d0ef4713c54faea601bd039085973ec23
+    password: e53df69385378cc5e5f1beed8e39b3ecec03b51e00057d88948ce346488973d90a1843f5c904abc876a4ef65962e5e02
     properties:
       mail:
         smtp:
