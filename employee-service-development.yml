@@ -5,7 +5,10 @@ spring:
     mongodb:
       uri: mongodb+srv://admin:JoTE7Horkdl4YwbP@cluster0.y5de1.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
       database: "HR_OnBoarding_System"
-
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+      
 server:
   port: 9001
 
