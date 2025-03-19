@@ -5,9 +5,9 @@ spring:
   cloud:
     gateway:
       globalcors:
-        cors-configurations:
+        corsConfigurations:
           '[/**]':
-            allowedOrigins: "http://localhost:5173"
+            allowedOrigins: "*"
             allowedMethods: "*"
             allowedHeaders: "*"
             exposedHeaders: "Authorization"
